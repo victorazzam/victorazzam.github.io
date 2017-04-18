@@ -4,7 +4,10 @@ body {
 	background-color: lightcyan; /* coral */
 }
 
-#all {margin: 0 auto}
+#all {
+	margin: 0 auto;
+	max-width: 800px;
+}
 
 h1 {
 	font-family: "Londrina Solid", cursive;
