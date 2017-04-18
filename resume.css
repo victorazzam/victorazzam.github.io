@@ -72,7 +72,7 @@ section {
 
 .entry p {text-align: justify}
 
-img, i, .entry *:not(p), h2, h1{
+img, i, .entry *:not(p), h2, h1, .links {
   -webkit-user-select: none;
   -moz-user-select: none;
 	user-select: none;
