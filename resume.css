@@ -1,0 +1,121 @@
+body {
+	padding: 1em 2em;
+	background-color: lightcyan; /* coral */
+}
+
+#all {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+h1 {
+	font-family: "Londrina Solid", cursive;
+	font-size: 3em;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+main {
+	margin: 10px;
+	padding: 0.2em 1em;
+	background-color: rgb(175, 238, 238); /* rgba(255, 85, 50, 0.8) */
+	border-radius: 1.2em;
+	font-family: "Quicksand", sans-serif;
+	min-width: 250px;
+	max-width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main img {
+	width: 85px;
+	height: 110px;
+	margin: 0 15px;
+	border-radius: 5px;
+}
+
+section {
+	margin: 10px;
+	padding: 1em;
+	padding-top: 0;
+	background-color: rgb(175, 238, 238); /* rgba(255, 85, 50, 0.8) */
+	border-radius: 1.2em;
+	font-family: "Quicksand", sans-serif;
+	min-width: 250px;
+	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+}
+
+.t {
+	font-family: "Fredoka One", cursive;
+	margin: 0.4em 0 0 1em;
+	flex: 1;
+}
+
+.e {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.entry {
+	margin: 15px auto;
+	max-width: 220px;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.entry p {text-align: justify}
+
+img, i, .entry *:not(p), h2, h1{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+	user-select: none;
+}
+
+.entry span {
+	display: inline-block;
+	border-radius: 10px;
+	padding: 5px 10px;
+	background-color: rgb(72, 209, 204); /* rgba(200, 00, 100, 0.3) */
+	margin-top: 8px;
+}
+
+.entry img {
+	max-width: 210px;
+	max-height: 140px;
+	border-radius: 10px;
+}
+
+.flag {
+	width: 88px;
+	height: 66px;
+}
+
+.rating {
+	color: steelblue; /* crimson */
+	margin-top: 8px;
+}
+
+.code {font-size: 4.5em}
+.note {margin: -5px 0 3px 0}
+li {margin: 5px 0}
+
+.links {
+	text-align: center;
+	max-width: 120px;
+	padding: 5px 15px;
+	margin: 5px 10px;
+	border: 1px solid turquoise;
+	border-radius: 10px;
+	cursor: pointer
+}
+
+.links:hover {
+	background-color: turquoise;
+	color: lightcyan;
+}
