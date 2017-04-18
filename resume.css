@@ -6,9 +6,6 @@ body {
 
 #all {
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	/*max-width: 800px;*/
 }
 
 h1 {
@@ -24,8 +21,8 @@ main {
 	background-color: rgb(175, 238, 238); /* rgba(255, 85, 50, 0.8) */
 	border-radius: 1.2em;
 	font-family: "Quicksand", sans-serif;
-	/*min-width: 250px;
-	max-width: 800px;*/
+	min-width: 250px;
+	max-width: 800px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,8 +42,8 @@ section {
 	background-color: rgb(175, 238, 238); /* rgba(255, 85, 50, 0.8) */
 	border-radius: 1.2em;
 	font-family: "Quicksand", sans-serif;
-	/*min-width: 250px;
-	max-width: 800px;*/
+	min-width: 250px;
+	max-width: 800px;
 	display: flex;
 	flex-direction: column;
 }
