@@ -31,7 +31,7 @@ main {
 
 main img {
 	width: 85px;
-	height: 110px;
+	height: 105px;
 	margin: 0 15px;
 	border-radius: 5px;
 }
@@ -92,6 +92,60 @@ img, i, .entry *:not(p), h2, h1, .links {
 	border-radius: 10px;
 }
 
+#summary {
+	padding: 0 15px 5px 15px;
+}
+
+.link {
+	color: #00a5c5;
+	cursor: pointer;
+}
+
+table {margin: 0 0.7em}
+.link:hover {color: #00ccff}
+
+.desc {
+	display: none;
+	padding: 5px;
+	margin: 12px 0 0 -50px;
+	width: 200px;
+	position: absolute;
+	border-radius: 10px;
+	background: #000;
+	color: rgb(210, 255, 255);
+}
+
+.desc::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-bottom-color: #000000;
+	border-top: 0;
+	border-radius: 2px;
+	margin-left: -10px;
+	margin-top: -8px;
+}
+
+.d1 {margin-left: -37px}
+.d2 {margin-left: -45px}
+.d3 {margin-left: -39px}
+.d4 {margin-left: -61px}
+.d5 {margin-left: -70px}
+.d6 {margin-left: -49px}
+.d7 {margin-left: -36px}
+.d8 {margin-left: -68px}
+.d9 {margin-left: -68px}
+.skill:hover ~ .desc {display: block}
+
+td {
+	vertical-align: top;
+	padding: 10px 5px;
+}
+
 .flag {
 	width: 88px;
 	height: 66px;
@@ -104,7 +158,7 @@ img, i, .entry *:not(p), h2, h1, .links {
 
 .code {font-size: 4.5em}
 .note {margin: -5px 0 3px 0}
-li {margin: 5px 0}
+li {margin: 5px 0 5px 40px}
 
 .links {
 	text-align: center;
